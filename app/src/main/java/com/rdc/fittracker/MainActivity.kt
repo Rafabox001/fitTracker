@@ -190,7 +190,7 @@ class MainActivity : AppCompatActivity() {
                 .addOnFailureListener {
                     Log.i(TAG, "Failed to Subscribe: " + it.message)
                 }
-        
+
         binding.bloodPressureRecycler.apply {
             layoutManager = LinearLayoutManager(this@MainActivity, LinearLayoutManager.VERTICAL, false)
             adapter = BloodPressureAdapter(bloodPressureData)
