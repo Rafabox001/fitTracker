@@ -13,7 +13,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="@string/last_sync_date"
+        android:text="@string/no_sync_date"
         android:textColor="@color/primary_text_color"
         android:textSize="@dimen/text16"
         android:textStyle="bold"

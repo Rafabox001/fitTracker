@@ -2,5 +2,6 @@
     <string name="app_name">Fit Tracker</string>
 
     <string name="last_sync_date">Last Google Fit Sync: %s</string>
+    <string name="no_sync_date">No Google Fit Sync yet</string>
     <string name="enable_google_fit">Enable Google Fit</string>
 </resources>
