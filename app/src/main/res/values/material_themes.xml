@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Activity Themes -->
+    <style name="BaseAppTheme" parent="Theme.MaterialComponents.Light.NoActionBar.Bridge">
+        <item name="colorPrimary">@color/colorAccent</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@color/primary_text_color</item>
+        <item name="android:textColorSecondary">@color/secondary_text_color</item>
+        <item name="colorButtonNormal">@color/colorAccent</item>
+        <item name="buttonStyle">@style/Theme.FitTracker.Button.Primary</item>
+    </style>
+
+    <style name="Theme.Material" parent="BaseAppTheme">
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowActivityTransitions">true</item>
+    </style>
+
+    <style name="Theme.FitTracker.Button.Primary" parent="Widget.AppCompat.Button">
+        <item name="colorButtonNormal">@color/primary_selector_button</item>
+        <item name="android:textColor">@color/primary_selector_text</item>
+        <item name="android:textSize">@dimen/dimen14</item>
+    </style>
+
+</resources>
+

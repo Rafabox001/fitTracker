@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#42cccd</color>
+    <color name="colorPrimaryDark">#15aedb</color>
+    <color name="colorAccent">#fa7c13</color>
+
+    <color name="secondary_text_color">#a63637</color>
+    <color name="primary_text_color">#fff</color>
+
+    <color name="recycler_back">#33ffffff</color>
+
+    <color name="primary_disabled_text_color">#4a4a4a</color>
+</resources>
